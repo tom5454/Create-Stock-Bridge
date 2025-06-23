@@ -216,7 +216,7 @@ IGridConnectedBlockEntity, IPriorityHost, IStorageProvider, ICraftingProvider, I
 	@Override
 	public void tick() {
 		super.tick();
-		if (!level.isClientSide && level.getGameTime() % 20 == worldPosition.hashCode() % 20) {
+		if (!level.isClientSide && level.getGameTime() % 20 == Math.abs(worldPosition.hashCode() % 20)) {
 			items = behaviour.getItems();
 			remountStorage();//TODO improve speed
 
