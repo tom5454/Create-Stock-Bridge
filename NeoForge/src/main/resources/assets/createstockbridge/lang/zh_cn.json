@@ -1,0 +1,15 @@
+{
+  "block.createstockbridge.ae_bridge": "AE存储桥接器",
+  "createstockbridge.ponder.ae_stockbridge.header": "将物流网络连接至AE",
+  "createstockbridge.ponder.ae_stockbridge.text_1": "AE存储桥接器可将机械动力的物流网络与应用能源的ME网络连接起来",
+  "createstockbridge.ponder.ae_stockbridge.text_2": "放置桥接器前，鼠标右击对应的物流网络以设定频率",
+  "createstockbridge.ponder.ae_stockbridge.text_3": "将AE存储桥接器的地址设为与货物蛙港相同的地址",
+  "createstockbridge.ponder.ae_stockbridge.text_4": "AE",
+  "createstockbridge.ponder.ae_stockbridge.text_5": "AE",
+  "createstockbridge.ponder.ae_stockbridge.text_6": "借助“合成”功能，AE可以从物流网络中请求物品",
+  "createstockbridge.ponder.ae_stockbridge.text_7": "仓库管理员也可以从ME网络中请求物品",
+  "gui.createstockbridge.address": "包裹地址：",
+  "gui.stockbridge.remote_items": "物流网络中的物品",
+  "item.createstockbridge.request_pattern": "请求模板",
+  "tooltip.stockbridge.remote_item": "此物品处于机械动力物流网络中"
+}
