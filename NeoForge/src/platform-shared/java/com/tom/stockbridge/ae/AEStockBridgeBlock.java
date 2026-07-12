@@ -1,5 +1,6 @@
 package com.tom.stockbridge.ae;
 
+import com.simibubi.create.content.equipment.wrench.IWrenchable;
 import net.createmod.catnip.data.Iterate;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -17,7 +18,7 @@ import net.minecraft.world.phys.BlockHitResult;
 
 import com.simibubi.create.foundation.block.IBE;
 
-public class AEStockBridgeBlock extends Block implements IBE<AEStockBridgeBlockEntity> {
+public class AEStockBridgeBlock extends Block implements IBE<AEStockBridgeBlockEntity>, IWrenchable {
 	public static final BooleanProperty POWERED = BlockStateProperties.POWERED;
 
 	public AEStockBridgeBlock(Properties pProperties) {
